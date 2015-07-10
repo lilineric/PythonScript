@@ -29,7 +29,7 @@ for opt, arg in opts:
         print(u"-m:  重命名模式，默认为0。(0：采用group全部替换模式，1：直接采用sub替换掉匹配到字符）")
         print(u"-t:  是否测试")
         print(u"-h:  帮助")
-        print(r"例:  python rename.pyw -d directory|filepath -p .+(\d{4}).*?(.txt) -r Test{1}{2}")
+        print(r"例:  python rename.pyw -d d:\test\ -p .+(\d{4}).*?(.txt) -r Test{1}{2}")
         exit()
 
 print(path)
